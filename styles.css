@@ -1,5 +1,20 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 20px 0;
 }
