@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade System</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <label for="english">English</label>
+        <input type="number" name="english" id="english" value="0" />
+        <label for="punjabi">Punjabi</label>
+        <input type="number" name="punjabi" id="punjabi" value="0" />
+        <label for="computing">Computing</label>
+        <input type="number" name="computing" id="computing" value="0" />
+
+        <button onclick="getResult()" id="getResultBtn" >Get Result</button>
+        <div id="resultOutput"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
